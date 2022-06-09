@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(180deg, #49654f 0%, #051408 100%);
+  height: 100%;
+}
+#root {
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 62px;
+}

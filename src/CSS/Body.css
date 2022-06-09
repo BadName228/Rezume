@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-style: normal;
+  box-sizing: border-box;
+}
+#body {
+  width: 1200px;
+  background-color: rgba(221, 235, 223, 1);
+  box-sizing: border-box;
+  height: 1400px;
+  margin: 0px auto;
+  padding-top: 28px;
+}
+.ramka {
+  margin-left: 22px;
+  border: 2px solid rgba(26, 47, 30, 0.8);
+  height: 1350px;
+  width: 1158px;
+  position: absolute;
+  padding: 10px;
+}
+#time {
+  width: 100%;
+  background-color: rgb(32, 30, 30);
+  height: 160px;
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 10px;
+}
+#time_to_start {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgba(221, 235, 223, 1);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+.circle_time {
+  height: 140px;
+  width: 140px;
+  border: 7px solid rgb(54, 206, 226);
+  border-radius: 70px;
+  margin-left: 25px;
+}
+.ttt {
+  color: rgba(221, 235, 223, 1);
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 15px;
+}
+.ppp1,
+.ppp2,
+.ppp3,
+.ppp4 {
+  color: rgba(221, 235, 223, 1);
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5px;
+}
+#ROADMAP {
+  margin-top: 10px;
+}
+#roadmap {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  box-sizing: border-box;
+  background-color: rgb(32, 30, 30);
+  border-radius: 10px;
+  padding-top: 11px;
+}
+#roadmap p {
+  font-size: 50px;
+  text-align: center;
+  color: rgba(221, 235, 223, 1);
+  transform: skew(-10deg);
+}
+#start {
+  box-sizing: border-box;
+  padding-top: 23px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+/* font-family: "Open Sans";
+  src: local("Open Sans"), url("./../fonts/Coworking.ttf"); */
+#krug1 {
+  position: absolute;
+  margin-left: 550px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(54, 206, 226);
+  margin-top: 30px;
+  border-radius: 20px;
+}
+#line {
+  margin-top: 70px;
+  margin-left: 568.5px;
+  position: absolute;
+  border-right: 3px solid rgb(54, 206, 226);
+  height: 720px;
+}
+#krug2 {
+  position: absolute;
+  margin-left: 550px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(54, 206, 226);
+  margin-top: 120px;
+  border-radius: 20px;
+}
+#html {
+  margin-top: 50px;
+  margin-left: 600px;
+  position: absolute;
+}
+#tr1 {
+  width: 0;
+  height: 0;
+  border-top: 30px solid rgb(32, 30, 30);
+  border-left: 30px solid transparent;
+}
+#pole {
+  height: 70px;
+  width: 400px;
+  background-color: rgb(32, 30, 30);
+  color: rgba(221, 235, 223, 1);
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+}
+#html-text {
+  background-color: white;
+  padding-left: 10px;
+  font-size: 17px;
+  line-height: 25px;
+  box-shadow: inset 0 0 6px black;
+}
+#css {
+  margin-top: 140px;
+  margin-left: 110px;
+  position: absolute;
+}
+#tr2 {
+  border-top: 30px solid rgb(32, 30, 30);
+  border-right: 30px solid transparent;
+}
+#krug3 {
+  position: absolute;
+  margin-left: 550px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(54, 206, 226);
+  margin-top: 320px;
+  border-radius: 20px;
+}
+#js {
+  margin-top: 340px;
+  margin-left: 600px;
+  position: absolute;
+}
+#krug4 {
+  position: absolute;
+  margin-left: 550px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(54, 206, 226);
+  margin-top: 420px;
+  border-radius: 20px;
+}
+#Reactt {
+  margin-top: 440px;
+  margin-left: 110px;
+  position: absolute;
+}
+#krug5 {
+  position: absolute;
+  margin-left: 550px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(54, 206, 226);
+  margin-top: 780px;
+  border-radius: 20px;
+}
+#something_technologies {
+  margin-top: 800px;
+  margin-left: 600px;
+  position: absolute;
+}
